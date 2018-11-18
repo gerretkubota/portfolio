@@ -17,7 +17,7 @@ module.exports = {
         }
       },
       {
-        test: /\/css$?/,
+        test: /\css?$/,
         exclude: /node_modules/,
         loaders: ['style-loader', 'css-loader']
       }
